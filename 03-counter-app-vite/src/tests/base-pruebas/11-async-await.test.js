@@ -6,7 +6,7 @@ describe('Prueba en 11-async-await', () => {
         
         const url = await getImagen();
 
-        console.log( url );
+        // console.log( url );
 
         expect( url ).toEqual(expect.any( String ))
     })

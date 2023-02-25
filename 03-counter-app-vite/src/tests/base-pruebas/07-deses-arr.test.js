@@ -5,7 +5,7 @@ describe('Pruebas en 07-deses-arr', () => {
 
     test('Debe restornar un string y un numero', () => {
         
-        console.log('-----------------------------');
+        // console.log('-----------------------------');
         
         const [ letters, numbers ] = retornaArreglo();
         
@@ -21,7 +21,7 @@ describe('Pruebas en 07-deses-arr', () => {
         expect( letters ).toEqual( expect.any(String) );
         expect( numbers ).toEqual( expect.any(Number) );
         
-        console.log('-----------------------------');
+        // console.log('-----------------------------');
  
     });
 

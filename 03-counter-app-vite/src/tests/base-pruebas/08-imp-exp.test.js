@@ -8,7 +8,7 @@ describe('Pruebas en 08-imp-exp', () => {
         const id = 1;
         const hero = getHeroeById(id);
 
-        console.log(hero);
+        // console.log(hero);
 
         expect(hero).toEqual({ id: 1, name: 'Batman', owner: 'DC' });
     });
@@ -27,7 +27,7 @@ describe('Pruebas en 08-imp-exp', () => {
         const owner = "DC";
         const listaDC = getHeroesByOwner(owner);
 
-        console.log(listaDC);
+        // console.log(listaDC);
 
         expect(listaDC).toEqual([
             { id: 1, name: 'Batman', owner: 'DC' },
@@ -43,7 +43,7 @@ describe('Pruebas en 08-imp-exp', () => {
         const owner = "Marvel";
         const listaDC = getHeroesByOwner(owner);
 
-        console.log(listaDC);
+        // console.log(listaDC);
 
         expect(listaDC.length).toBe(2);
         expect(listaDC).toEqual( heroes.filter( (heroe) => heroe.owner === owner) );

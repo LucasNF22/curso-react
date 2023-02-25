@@ -10,7 +10,7 @@ describe('Pruebas en 05-funciones', () => {
         };
         
         const user = getUser();
-        console.log(user);
+        // console.log(user);
         
         expect( testUser ).toEqual( user );
 
@@ -22,7 +22,7 @@ describe('Pruebas en 05-funciones', () => {
         const name = 'Lucas';
 
         const getUser = getUsuarioActivo( name );
-        console.log(getUser);
+        // console.log(getUser);
 
         expect( getUser ).toEqual({
             uid: 'ABC567',

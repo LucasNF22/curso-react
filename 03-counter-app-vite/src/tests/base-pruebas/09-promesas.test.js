@@ -32,7 +32,7 @@ describe('Pruebas en 09-promesas', () => {
 
                 expect( error ).toBe( `No se pudo encontrar el héroe con id: ${id}` )
 
-                console.log(error);
+                // console.log(error);
                 done();
             })
     
